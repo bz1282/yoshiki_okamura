@@ -1,0 +1,114 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  color: #4b4b4b;
+  background-color: rgb(221, 229, 249);
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+img {
+  display: block;
+  width: 50%;
+  height: auto;
+  margin: 1rem auto;
+  max-width: 800px;
+  margin-bottom: 0.5rem;
+  border-radius: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #373737;
+}
+
+.nav-main {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgb(162, 162, 233);
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+}
+
+h3 {
+  font-size: 3rem;
+  margin: 1rem 0;
+  margin-bottom: 0.5rem;
+}
+
+main {
+  padding: 0 1rem;
+}
+section {
+
+  margin-bottom: 3rem;
+}
+.works-list {
+  padding-left: 0;
+  list-style-position: inside;
+  text-align: center;
+}
+
+.works-list li {
+  font-size: 1.25rem;
+}
+
+.gallery-imgs {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.img-card {
+  width: 22%;
+  margin-bottom: 0;
+}
+
+.img-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.img-card:nth-child(even) {
+  margin-top: 10rem;
+}
+
+footer {
+  background-color: rgb(162, 162, 233);
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a:hover {
+  color: rgb(112, 112, 190);
+}
+
+.img-card img:hover {
+  opacity: 0.9;
+}
